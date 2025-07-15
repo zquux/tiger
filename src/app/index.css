@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FONTS SETUP */
+@font-face {
+  font-family: "PTSerif";
+  src: url("../../public/fonts/woff2/PTSerif-Regular.woff2") format("woff2"),
+    url("../../public/fonts/woff/PTSerif-Regular.woff") format("woff"),
+    url("../../public/fonts/ttf/PTSerif-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PTSerif";
+  src: url("../../public/fonts/woff2/PTSerif-Bold.woff2") format("woff2"),
+    url("../../public/fonts/woff/PTSerif-Bold.woff") format("woff"),
+    url("../../public/fonts/ttf/PTSerif-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("../../public/fonts/woff2/NexaLight.woff2") format("woff2"),
+    url("../../public/fonts/woff/NexaLight.woff") format("woff"),
+    url("../../public/fonts/ttf/NexaLight.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: "PTSerif";
+  src: url("../../public/fonts/woff2/PTSerif-Regular.woff2") format("woff2"),
+    url("../../public/fonts/woff2/PTSerif-Regular.woff2") format("woff2"),
+    url("../../public/fonts/woff2/PTSerif-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+} */
+
+@theme inline {
+  --color-black: #161616;
+}
